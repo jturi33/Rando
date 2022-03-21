@@ -5,7 +5,7 @@ Programmer needs only to provide a base64 encoded PEM certificate to get it work
 1. https://www.mrjamiebowman.com/hacking/c-sharp-reverse-shell/
 2. https://docs.microsoft.com/en-us/dotnet/api/system.net.security.sslstream
 
-//HexecutableInvoker executes any hexecutable program provided. 
+//HexecutableInvoker executes any hexecutable payload provided. 
 It was inspired by a SANS article on malicious JavaScript (Ref #1) as well Reversing Hub's exquisite class on hexecutable malware. Reccomend highly!!! (Ref #2).
 The programmer needs only to replace the namespace & class with that of their implemented payload & then provide the necessary arguments. Convert your payload to .hex format using the instructions provided in ReversingHub's Udemy course linked below.
 1. https://isc.sans.edu/forums/diary/Malicious+Script+With+Multiple+Payloads/25090/
