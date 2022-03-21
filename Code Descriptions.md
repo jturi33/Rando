@@ -2,7 +2,7 @@
 //SslReverseLib is a copy of Jamie Bowman's reverse shell implementation.
 The only change I made was wrapping it inside of Microsoft's official SSLSTREAM class.
 Programmer needs only to provide a base64 encoded PEM certificate to get it working
-https://www.mrjamiebowman.com/hacking/c-sharp-reverse-shell/ 
+https://www.mrjamiebowman.com/hacking/c-sharp-reverse-shell/
 https://docs.microsoft.com/en-us/dotnet/api/system.net.security.sslstream
 
 //HexecutableInvoker executes any hexecutable program provided. 
