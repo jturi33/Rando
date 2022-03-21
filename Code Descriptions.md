@@ -1,13 +1,11 @@
 # Rando
-//SslReverseLib
-SslReverseLib is a copy of Jamie Bowman's reverse shell implementation.
+//SslReverseLib is a copy of Jamie Bowman's reverse shell implementation.
 The only change I made was wrapping it inside of Microsoft's official SSLSTREAM class.
-The hacker need only provide a base64 encoded PEM certificate to get it working.
+Programmer needs only to provide a base64 encoded PEM certificate to get it working
 https://www.mrjamiebowman.com/hacking/c-sharp-reverse-shell/
 https://docs.microsoft.com/en-us/dotnet/api/system.net.security.sslstream
 
-//HexecutableInvoker
-The Hexecutable invoker executes any hexecutable program provided. 
+//HexecutableInvoker executes any hexecutable program provided. 
 It was inspired by a SANS article on malicious JavaScript as well Reversing Hub's exquisite class on hexecutable malware. Reccomend highly!!! (Links below).
 The programmer needs only to replace the namespace & class with that of their implemented program & then provide the necessary arguments. Convert your program to .hex format using the instructions provided in ReversingHub's Udemy course linked below.
 https://isc.sans.edu/forums/diary/Malicious+Script+With+Multiple+Payloads/25090/
