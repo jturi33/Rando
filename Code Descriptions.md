@@ -18,3 +18,6 @@ the script.
 Originally derived from the below StackOverflow article this .csv contains a function to unlock any VBA macro past password protection.
 Open the MacroHacker.csv along side your favorite password protected macro & then execute the unlock funtion.
 This should make the previously locked macro viewable in Excel's VBA editor.
+
+References:
+
