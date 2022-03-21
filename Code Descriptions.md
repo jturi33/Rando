@@ -7,7 +7,7 @@ Programmer needs only to provide a base64 encoded PEM certificate to get it work
 
 //HexecutableInvoker executes any hexecutable program provided. 
 It was inspired by a SANS article on malicious JavaScript (Ref #1) as well Reversing Hub's exquisite class on hexecutable malware. Reccomend highly!!! (Ref #2).
-The programmer needs only to replace the namespace & class with that of their implemented program & then provide the necessary arguments. Convert your program to .hex format using the instructions provided in ReversingHub's Udemy course linked below.
+The programmer needs only to replace the namespace & class with that of their implemented payload & then provide the necessary arguments. Convert your payload to .hex format using the instructions provided in ReversingHub's Udemy course linked below.
 1. https://isc.sans.edu/forums/diary/Malicious+Script+With+Multiple+Payloads/25090/
 2. https://www.udemy.com/course/reverse-engineering-deep-dive/
 
