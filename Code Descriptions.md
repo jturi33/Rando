@@ -12,12 +12,17 @@ The programmer needs only to replace the namespace & class with that of their pa
 1. https://isc.sans.edu/forums/diary/Malicious+Script+With+Multiple+Payloads/25090/
 2. https://www.udemy.com/course/reverse-engineering-deep-dive/
 
-//Powershell Dropper
-JavaScript file take a URL leading a .txt file. This file should contain PowerShell commands seperated by semicolon and will be ran by PowerShell upon execution of
-the script.
+//C# Process Hollowing
+Gmgorelik's C# Process Hollowing implementation. The shell code being executed is found on line ## & derived using the following msfvenom command:
+It calls out to a meterpreter listener on 192[.]168[.]56[.]104:56104. You may modify the above command to generate your own payload all the same. This program is mostly commodity & highly detectable.
+1. msfvenom link
 
 //VBA Macro Hacker
 Originally derived from the below StackOverflow page (Ref #1) this .csv contains a function to unlock any VBA macro past password protection.
 Open the MacroHacker.csv along side your favorite password protected macro & then execute the unlock funtion.
 This should make the previously locked macro viewable in Excel's VBA editor.
 1. https://stackoverflow.com/questions/1026483/is-there-a-way-to-crack-the-password-on-an-excel-vba-project
+
+//Powershell Dropper
+JavaScript file take a URL leading a .txt file. This file should contain PowerShell commands seperated by semicolon and will be ran by PowerShell upon execution of
+the script.
