@@ -15,7 +15,8 @@ The programmer needs only to replace the namespace & class with that of their pa
 //C# Process Hollowing
 Gmgorelik's C# Process Hollowing implementation. The shell code being executed is found on line ## & derived using the following msfvenom command:
 It calls out to a meterpreter listener on 192[.]168[.]56[.]104:56104. You may modify the above command to generate your own payload all the same. This program is mostly commodity & highly detectable.
-1. msfvenom link
+1. gmgorelik's C# Process Hollowing implementatin
+2. msfvenom link
 
 //VBA Macro Hacker
 Originally derived from the below StackOverflow page (Ref #1) this .csv contains a function to unlock any VBA macro past password protection.
